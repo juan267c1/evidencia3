@@ -1,0 +1,15 @@
+package evidencia3java;
+
+
+import java.util.Random;
+
+
+public abstract class cita extends principal{
+    public void cita(){
+         Random rand = new Random();
+        int r = rand.nextInt(999);
+        System.out.println("El tiempo y dia de la citas es: ");
+        System.out.println("Numero de la cita"+r);
+    }
+    
+}
