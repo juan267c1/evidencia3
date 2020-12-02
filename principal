@@ -1,0 +1,7 @@
+package evidencia3java;
+
+public interface principal {
+    public void doctor();
+    
+    public void cita();
+}
