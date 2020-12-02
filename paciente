@@ -1,0 +1,15 @@
+package evidencia3java;
+
+import java.util.Random;
+
+
+public abstract class paciente implements principal{
+    public void cita(){
+        Random rand = new Random();
+        int r = rand.nextInt(9999);
+        System.out.println("El nombre del paciente es :");
+        System.out.println("Numero unico del paciente: "+r);
+        System.out.println("Enfermendad o sindoma: ");
+    }
+    
+}
