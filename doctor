@@ -1,0 +1,14 @@
+package evidencia3java;
+
+
+import java.util.Random;
+
+public abstract class doc implements principal{
+    public void doctor(){
+        Random rand = new Random();
+        int r = rand.nextInt(9999);
+        System.out.println("El nombre del doctor es John Doe");
+        System.out.println("ID:"+r);
+    }
+    
+}
